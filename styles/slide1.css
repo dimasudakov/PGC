@@ -13,13 +13,13 @@
     position: relative;
     width: 100%;
     min-height: 80vh;
-    background: radial-gradient(29.59% 15.64% at 13.47% 84.36%, #00A9B9 0%, #204B99 38.15%, #000000 100%);
+    background: radial-gradient(228% 310.76% at 2% -73%, #0094F1 30%, #31caa5 70.08%, #0094F1 90%)
 }
 
 @media screen and (max-width: 900px) {
     .parallax__group-1 {
         min-height: 10vh;
-        background: radial-gradient(29.59% 16.64% at 17.47% 75.36%, #00A9B9 0%, #204B99 38.15%, #000000 100%);
+    background: radial-gradient(228% 310.76% at 2% -73%, #0094F1 30%, #31caa5 70.08%, #0094F1 90%)
     }
 }
 
@@ -62,6 +62,7 @@
                 height: 40vw;
                 min-height: 300px;
             }
+
             @media screen and (max-width: 900px) {
                 .blob {
                     left: -5%;
@@ -136,7 +137,7 @@
     .actions {
         display: flex;
         flex-direction: column;
-        gap: 2vh;
+        gap: 2.7vh;
         width: 40%;
         align-items: center;
         justify-content: center;
@@ -163,13 +164,15 @@
 
 
     .actions-btn {
-        height: 5vh;
-        border-radius: 50vh 0 0 50vh;
+        height: 6vh;
+        width: 35vh;
+        border-radius: 50vh;
         display: flex;
         align-items: center;
+        justify-content: center;
         background: rgba(35, 55, 108, 0.5);
         color: white;
-        align-self: flex-end;
+        align-self: center;
         border: 1px solid var(--grey-color-1);
         border-right: none;
         padding-left: 1vw;

@@ -1,5 +1,10 @@
 {
   "En": {
+    "slide-1_action-1": "About conference",
+    "slide-1_action-2": "Conference Program",
+    "slide-1_action-3": "Become a Participant",
+    "slide-1_action-4": "Subscribe",
+    "slide-1_action-5": "Abstract Template",
     "header_about": "About conference",
     "header_experts": "Experts",
     "header_orientations": "Sections",
@@ -38,6 +43,11 @@
   },
 
   "Ru": {
+    "slide-1_action-1": "Подробная информация",
+    "slide-1_action-2": "Программа конференции",
+    "slide-1_action-3": "Стать участником",
+    "slide-1_action-4": "Подпишитесь на нас",
+    "slide-1_action-5": "Шаблон оформления тезисов",
     "header_about": "О конференции",
     "header_experts": "Эксперты",
     "header_orientations": "Направления",
