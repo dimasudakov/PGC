@@ -1,15 +1,10 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     background-color: var(--background-color);
+    color: black;
 }
-
-@font-face {
-    font-family: 'Condens';
-    src: url('../fonts/condens.otf') format('opentype');
-}
-
 
 .parallax {
     perspective: 1px;

@@ -6,9 +6,9 @@ let prevWindowWidth = -1
 
 function updateHeader() {
     const bigHeader = `
-    <img src="" alt="" class="header-logo-big" id="header-logo">
+    <img src="assets/header/desktop-logo.svg" alt="" class="header-logo-big" id="header-logo">
     <div class="header-item f-mx1" id="header_about"></div>
-<!--    <div class="header-item f-mx1" id="header_experts"></div>-->
+    <div class="header-item f-mx1" id="header_experts"></div>
     <div class="header-item f-mx1" id="header_orientations"></div>
     <div class="header-item f-mx1" id="header_terms"></div>
     <div class="header-item f-mx1" id="header_program"></div>
@@ -20,7 +20,7 @@ function updateHeader() {
     const mobileHeader = `
     <div class="header-wrapper">
         <img src="assets/header/navbar-icon.svg" alt="" class="nav-button" id="navButton" />
-        <img src="" alt="" class="header-logo-small" id="header-logo" />
+        <img src="assets/header/mobile-logo.svg" alt="" class="header-logo-small" id="header-logo" />
     </div>
   `;
 

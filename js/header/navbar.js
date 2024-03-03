@@ -12,6 +12,14 @@ const content = `
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>
             <li class="ml-30 navbar-action">
+                <div id="navbar_experts"></div>
+                <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
+            </li>
+            <li class="ml-30 navbar-action">
+                <div id="navbar_orientations"></div>
+                <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
+            </li>
+            <li class="ml-30 navbar-action">
                 <div id="navbar_terms"></div>
                 <img src="assets/header/arrow-right.svg" alt="" class="li-logo" />
             </li>

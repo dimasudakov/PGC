@@ -8,7 +8,7 @@ langButton.addEventListener('click', handleChangeLanguage)
 function handleChangeLanguage() {
     if(currentLang === "Ru") {
         currentLang = "En"
-        localStorage.setItem("language", "Ru");
+        localStorage.setItem("language", "En"); 
         changePageLang()
     } else {
         currentLang = "Ru"
@@ -26,6 +26,10 @@ function changePageLang() {
         if(el) {
             el.innerText = translations[currentLang][key];
         }
+    }
+
+    if(document.getElementById('slide-2_image')) {
+        document.getElementById('slide-2_image').src = "assets/slide2/" + currentLang.toLowerCase() + "-image.png"
     }
 }
 
