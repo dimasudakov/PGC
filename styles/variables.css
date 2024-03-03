@@ -1,0 +1,15 @@
+:root {
+    --background-color: black;
+    --grey-color-1: #a8a8a8;
+    --linear-gradient-1: linear-gradient(89.91deg, #00E0FF -1.02%, #00FA9C 99.96%);
+
+    --header-height: 7vh;
+    --header-background-color: rgb(31, 31, 31);
+    --navbar-background-color: rgba(0, 0, 0, 1);
+
+    --page-content-padding: 100px;
+    --page-content-padding-mobile: 30px;
+
+    --parallax-padding-horizontal: 100px;
+    --parallax-padding-horizontal-mobile: 30px;
+}

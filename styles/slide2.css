@@ -1,0 +1,99 @@
+
+.parallax__group-2 {
+    position: relative;
+    height: calc(90vh - 2 * max(10vh, 60px));
+    display: flex;
+    padding: max(10vh, 60px) var(--page-content-padding);
+}
+
+@media screen and (max-width: 999px) {
+    .parallax__group-2 {
+        height: auto
+    }
+}
+
+.parallax__group-2 {
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 46%;
+        height: min-content;
+        color: white;
+
+        .title-1 {
+
+        }
+
+        .title-2 {
+            color: rgba(0, 169, 185, 1);
+            margin-bottom: max(20px, 4vh);
+            margin-top: max(5px, 1vh);
+        }
+
+        .title-3 {
+
+        }
+    }
+
+    .image {
+        position: absolute;
+        height: 50vw;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .timeline {
+        position: absolute;
+        bottom: 4%;
+        left: 50px;
+        height: auto;
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .parallax__group-2 {
+        flex-direction: column;
+        padding: 30px 30px;
+
+        .info {
+            width: 100%;
+            .title-2 {
+                margin-bottom: 20px;
+            }
+        }
+
+        .bottom {
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+
+            .control-dates {
+                color: white;
+                margin-top: 60px;
+                font-weight: bold;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                height: 65vw;
+                .dates {
+                    position: absolute;
+                    left: -14vw;
+                    top: -6vw;
+                    width: 55%;
+                    height: auto;
+                }
+                .image-mobile {
+                    position: absolute;
+                    width: 65%;
+                    right: -30px;
+                    top: 4vw;
+                }
+            }
+        }
+    }
+}

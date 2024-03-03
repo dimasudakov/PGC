@@ -1,0 +1,60 @@
+:root {
+    --min-font-size: 14px;
+}
+
+.f-mx0_6 {
+    font-size: calc(max(11px, 0.6vw)) !important;
+}
+
+.f-mx0_8 {
+    font-size: calc(max(13px, 0.8vw)) !important;
+}
+
+.f-mx1 {
+    font-size: calc(max(var(--min-font-size), 1vw)) !important;
+}
+
+.f-mx1_5 {
+    font-size: calc(max(15px, 1.2vw)) !important;
+}
+
+
+.f-mx2 {
+    font-size: calc(max(20px, 1.5vw)) !important;
+}
+
+.f-0_8 {
+    font-size: calc(12px + 0.8vw) !important;
+}
+
+.f-1 {
+    font-size: calc(var(--min-font-size) + 1vw) !important;
+}
+
+.f-1_5 {
+    font-size: calc(var(--min-font-size) + 1.5vw) !important;
+}
+
+.f-2 {
+    font-size: calc(var(--min-font-size) + 2vw) !important;
+}
+
+.f-2_5 {
+    font-size: calc(var(--min-font-size) + 2.5vw) !important;
+}
+
+.f-3 {
+    font-size: calc(var(--min-font-size) + 3vw) !important;
+}
+
+.mr-1 {
+    margin: 1vh 0 !important;
+}
+
+.mr-2 {
+    margin: 2vh 0 !important;
+}
+
+.bold {
+    font-weight: bold;
+}

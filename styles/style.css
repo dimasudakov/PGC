@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+}
+
+@font-face {
+    font-family: 'Condens';
+    src: url('../fonts/condens.otf') format('opentype');
+}
+
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--background-color);
+    position: relative
+}
+
+.adapt-padding {
+    padding: 0 var(--parallax-padding-horizontal);
+}
+
+@media screen and (max-width: 999px) {
+    .adapt-padding {
+        padding: 0 var(--parallax-padding-horizontal-mobile)
+    }
+}
+
+.backtop {
+    display: none;
+    position: sticky;
+    left: 90%;
+    bottom: 10%;
+    top: 90%;
+    z-index: 100000000;
+    cursor: pointer;
+    width: 6vmin;
+}
+@media screen and (max-width: 760px) {
+    .backtop {
+        left:  80%;
+    }
+}
+

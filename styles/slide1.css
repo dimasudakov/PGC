@@ -1,0 +1,205 @@
+.shell-top {
+    position: fixed;
+    right: -3vw;
+    top: 100px;
+    width: 25vw;
+    height: auto;
+    min-width: 200px;
+}
+
+.parallax__group-1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background: radial-gradient(29.59% 15.64% at 13.47% 84.36%, #00A9B9 0%, #204B99 38.15%, #000000 100%);
+}
+
+@media screen and (max-width: 900px) {
+    .parallax__group-1 {
+        min-height: 10vh;
+        background: radial-gradient(29.59% 16.64% at 17.47% 75.36%, #00A9B9 0%, #204B99 38.15%, #000000 100%);
+    }
+}
+
+
+.parallax__layer--back-slide1 {
+    transform: translateZ(-1px) scale(2);
+    width: 100%;
+}
+
+.payload {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1.7vw;
+    color: white;
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 60%;
+
+        .title-1 {
+            padding-left: 6vw;
+        }
+
+        .blob-block {
+            display: flex;
+            position: relative;
+            align-items: center;
+
+            .blob {
+                position: absolute;
+                left: 0;
+                top: calc(-50% + 2vw);
+                height: 40vw;
+                min-height: 300px;
+            }
+            @media screen and (max-width: 900px) {
+                .blob {
+                    left: -5%;
+                    top: 5%;
+                    min-height: 250px;
+                }
+            }
+            .data {
+                position: relative;
+                display: flex;
+                margin-left: max(180px, calc(40vw * 0.6));
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 6vh;
+                gap: 20px;
+
+                .title-1-mobile {
+                    z-index: 2;
+                }
+                .title {
+                    font-family: 'Condens', serif;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-size: max(60px, calc(14px + 6vw)) !important;
+                    z-index: 2;
+                }
+
+                .year {
+                    position: absolute;
+                    left: -10%;
+                    top: -40%;
+                    right: 0;
+                    bottom: 0;
+                    height: 180%;
+                    z-index: 1;
+                }
+
+                @media screen and (max-width: 900px) {
+                    .year {
+                        left: -60px;
+                        width: 340px;
+                    }
+                    .title {
+                        margin-right: 20px;
+                    }
+                }
+                @media screen and (min-width: 900px) {
+                    .title-1-mobile {
+                        display: none;
+                    }
+                }
+            }
+            @media screen and (max-width: 900px) {
+                .data {
+                    gap: 3px;
+                    margin-left: max(140px, calc(40vw * 0.6));
+                    .title-1-mobile {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .title-1 {
+            display: none;
+        }
+    }
+
+
+    .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .w-30 {
+        width: 30%;
+    }
+    .w-35 {
+        width: 35%;
+    }
+    .w-65 {
+        width: 65%;
+    }
+    .w-80 {
+        width: 80%;
+    }
+    .w-95 {
+        width: 95%;
+    }
+    .w-55 {
+        width: 55%;
+    }
+
+
+    .actions-btn {
+        height: 5vh;
+        border-radius: 50vh 0 0 50vh;
+        display: flex;
+        align-items: center;
+        background: rgba(35, 55, 108, 0.5);
+        color: white;
+        align-self: flex-end;
+        border: 1px solid var(--grey-color-1);
+        border-right: none;
+        padding-left: 1vw;
+    }
+
+    .actions-btn:not(.blocked):hover {
+        background-color: rgba(255, 255, 255, 0.75);
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .payload {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        gap: 10vh;
+
+        .info {
+            max-width: 100%;
+        }
+
+        .actions {
+            display: none;
+        }
+    }
+}
+
+
+
+
+

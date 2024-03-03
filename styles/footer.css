@@ -1,0 +1,308 @@
+.footer {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 80vh;
+    min-height: 400px;
+    padding: 0 100px 0 50px;
+    align-items: center;
+}
+
+.footer {
+    .map-wrapper {
+        position: relative;
+        overflow: hidden;
+        width: calc(1486 / 1412 * 40vmax);  /*картинка не совсем квадратная*/
+        height: 40vmax;
+        border-radius: 100%;
+
+        .stroke {
+            width: max(100%, 350px);
+            height: 100%;
+        }
+
+        .map-container {
+            position: absolute;
+            width: max(calc(68% / (1486 / 1412)), 228px);
+            height: 68%;
+            left: 17.4%;
+            top: 16%;
+            bottom: 0;
+            right: 0;
+            border-radius: 100%;
+            border: 2px solid white;
+            overflow: hidden;
+            .yandex-map {
+                position: absolute;
+                height: 200%;
+                width: 200%;
+                left: -50%;
+                top: -50%;
+            }
+        }
+    }
+
+    .info {
+        padding: 40px 0 40px 30px;
+        flex-direction: column;
+        flex: 1;
+        color: white;
+        overflow: hidden;
+
+        .contacts {
+            .title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 120%;
+            }
+
+            ul {
+                padding: 0;
+                gap: 1vw;
+            }
+
+            li {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+
+                .logo-wrapper {
+                    position: relative;
+                    width: 3.5vw;
+                    height: 3.5vw;
+
+                    .logo {
+                        width: 3vw;
+                        height: 3vw;
+                    }
+                }
+
+                a {
+                    color: white;
+                }
+            }
+        }
+
+        .location {
+
+            .title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 120%;
+            }
+
+            h4 {
+                margin: 20px 0 0;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+        padding: 0 0 0 15px;
+        height: min-content;
+
+        .contacts {
+            z-index: 1;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            .title {
+                font-weight: 700;
+                color: white;
+            }
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 1vw;
+                padding-left: 0;
+
+                li {
+                    list-style-type: none;
+                    display: flex;
+                    align-items: center;
+                    min-width: 40%;
+                    flex: 1;
+                    text-wrap: none;
+                    color: white;
+
+                    .logo-wrapper {
+                        position: relative;
+                        width: 8vw;
+                        height: 6vw;
+
+                        .logo {
+                            width: 6vw;
+                            height: 6vw;
+                        }
+                    }
+
+                    .a {
+                        color: white;
+                        text-wrap: nowrap;
+                    }
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            z-index: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .location {
+                display: flex;
+                flex-direction: column;
+                color: white;
+                flex: 1;
+                gap: 10px;
+
+                .title {
+                    font-weight: bold;
+                }
+            }
+            .map-wrapper {
+                width: calc(1486 / 1412 * 66vw);  /*картинка не совсем квадратная*/
+                height: 66vw;
+
+                .stroke {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .map-container {
+                    position: absolute;
+                    width: calc(67.5% / (1486 / 1412));
+                    height: 67.2%;
+                    left: 17.4%;
+                    top: 16%;
+                    bottom: 0;
+                    right: 0;
+                    border-radius: 100%;
+                    border: 2px solid white;
+                    overflow: hidden;
+                    .yandex-map {
+                        position: absolute;
+                        height: 200%;
+                        width: 200%;
+                        left: -50%;
+                        top: -50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    .back-1 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: max(20vw, 250px);
+    }
+    .back-2 {
+        position: absolute;
+        top: 20%;
+        right: 0;
+        width: max(15vw, 170px);
+    }
+    .back-3 {
+        position: absolute;
+        top: 12%;
+        right: 12vw;
+        width: max(3vw, 34px);
+    }
+    .back-4 {
+        position: absolute;
+        bottom: 0;
+        right: 12%;
+        width: max(10vw, 110px);
+    }
+    .back-5 {
+        position: absolute;
+        bottom: 7%;
+        right: 12%;
+        width: max(4vw, 45px);
+    }
+    .back-6 {
+        position: absolute;
+        left: 0;
+        bottom: 2%;
+        width: max(6vw, 68px);
+    }
+    .back-7 {
+        position: absolute;
+        left: 1%;
+        bottom: 22%;
+        width: max(3vw, 34px);
+    }
+
+    .back-8 {
+        position: absolute;
+        bottom: 18%;
+        left: 10%;
+        width: max(3vw, 34px);
+        z-index: 2;
+    }
+    .back-9 {
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        width: max(4vw, 40px);
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        .back-mobile-1 {
+            position: absolute;
+            right: -40px;
+            top: 5px;
+        }
+        .back-mobile-2 {
+            position: absolute;
+            top: 20%;
+            right: 10%;
+        }
+        .back-mobile-3 {
+            position: absolute;
+            left: 15%;
+            bottom: -8%;
+            width: 15%;
+            transform: rotate(90deg);
+        }
+        .back-mobile-4 {
+            position: absolute;
+            bottom: 20%;
+            left: 30%;
+        }
+        .back-mobile-5 {
+            position: absolute;
+            bottom: 15%;
+            left: 23%;
+        }
+        .back-mobile-6 {
+            position: absolute;
+            left: -40px;
+            bottom: 20px;
+        }
+        .back-mobile-7 {
+            position: absolute;
+            left: 5%;
+            bottom: 5%;
+        }
+
+    }
+}

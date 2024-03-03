@@ -1,0 +1,24 @@
+
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
