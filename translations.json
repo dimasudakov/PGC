@@ -5,6 +5,7 @@
     "slide-1_action-3": "Become a Participant",
     "slide-1_action-4": "Subscribe",
     "slide-1_action-5": "Abstract Template",
+    "slide-1_blob": "assets/header/blob-en.png",
     "header_about": "About conference",
     "header_experts": "Experts",
     "header_orientations": "Sections",
@@ -39,7 +40,44 @@
     "timer-text-026d7196f234c9b9938e8c6307b59672-days": "days",
     "timer-text-026d7196f234c9b9938e8c6307b59672-hours": "hours",
     "timer-text-026d7196f234c9b9938e8c6307b59672-minutes": "minutes",
-    "timer-text-026d7196f234c9b9938e8c6307b59672-secundes": "seconds"
+    "timer-text-026d7196f234c9b9938e8c6307b59672-secundes": "seconds",
+
+    "slide-3_title-1": "Program Committee",
+    "slide-3_title-2": "Expert Council",
+
+    "slide6_title_1": "Participation Terms",
+    "slide6_title_2": "Participation is free for all types of participants!",
+    "slide6_title_3": "On the days of the conference, lunches and coffee breaks will be organized for all participants of the conference.",
+    "slide6_title_4": "Participants will be selected based on the submitted abstracts. The number of co-author delegates is limited.",
+    "slide6_title_5": "Participants shall pay their own transportation costs.",
+    "slide6_title_6": "Recommended hotel accommodation options can be found here.",
+
+    "person-first-name-1": "",
+    "person-second-name-1": "Danis Nurgaliev",
+    "person-prof-1": "Vice-Rector for Petroleum Technologies, Environmental Management and Earth Sciences, KFU",
+
+    "person-first-name-2": "",
+    "person-second-name-2": "Sudakov Vladislav",
+    "person-prof-2": "Director of the REC “Modeling of hard-to-recover reserves”",
+
+    "person-first-name-3": "",
+    "person-second-name-3": "Nikita Morozov",
+    "person-prof-3": "Expert, \nGazpromneft",
+
+    "person-first-name-4": "",
+    "person-second-name-4": "Sergei Kaygorodov",
+    "person-prof-4": "Expert, \nGazpromneft",
+
+    "person-first-name-5": "",
+    "person-second-name-5": "Arthur Shakirov",
+    "person-prof-5": "Expert,\nGeoindicator",
+
+    "footer_contacts-title": "Contacts",
+    "footer-person": "-----------------",
+    "footer-phone": "-----------------",
+    "footer_location-title": "Location",
+    "footer_location-bold": "Institute of Geology and Petroleum Technologies",
+    "footer_location-normal" : "KFU\n4/5 Kremlevskaya str., Kazan, Republic of Tatarstan, Russia"
   },
 
   "Ru": {
@@ -48,6 +86,7 @@
     "slide-1_action-3": "Стать участником",
     "slide-1_action-4": "Подпишитесь на нас",
     "slide-1_action-5": "Шаблон оформления тезисов",
+    "slide-1_blob": "assets/header/blob-ru.png",
     "header_about": "О конференции",
     "header_experts": "Эксперты",
     "header_orientations": "Направления",
@@ -83,6 +122,45 @@
     "timer-text-026d7196f234c9b9938e8c6307b59672-days": "дней",
     "timer-text-026d7196f234c9b9938e8c6307b59672-hours": "часов",
     "timer-text-026d7196f234c9b9938e8c6307b59672-minutes": "минут",
-    "timer-text-026d7196f234c9b9938e8c6307b59672-secundes": "секунд"
+    "timer-text-026d7196f234c9b9938e8c6307b59672-secundes": "секунд",
+
+    "slide-3_title-1": "Программный комитет",
+    "slide-3_title-2": "Эксперты со всей России",
+
+    "slide6_title_1": "Условия участия",
+    "slide6_title_2": "Участие бесплатное для всех типов участников!",
+    "slide6_title_3": "В дни проведения конференции для всех участников конференции будут организованы кофе-брейки.",
+    "slide6_title_4": "Участники будут отобраны на основе тезисов докладов. Количество делегатов-соавторов ограничено",
+    "slide6_title_5": "Участники самостоятельно оплачивают транспортные расходы при переезде.",
+    "slide6_title_6": "Основные варианты размещения в отелях, которые мы рекомендуем, можно найти здесь.",
+
+    "person-first-name-1": "Нургалиев",
+    "person-second-name-1": "Данис Карлович",
+    "person-prof-1": "Проректор по направлениям нефтегазовых технологий, природопользования и наук о Земле, \nКФУ",
+
+    "person-first-name-2": "Судаков",
+    "person-second-name-2": "Владислав Анатольевич",
+    "person-prof-2": "Директор НОЦ “Моделирование ТРИЗ”",
+
+    "person-first-name-3": "Морозов",
+    "person-second-name-3": "Никита Владимирович",
+    "person-prof-3": "Эксперт, НТЦ “Газпром нефти”",
+
+    "person-first-name-4": "Кайгородов",
+    "person-second-name-4": "Сергей Владимирович",
+    "person-prof-4": "Эксперт, НТЦ “Газпром нефти”",
+
+    "person-first-name-5": "Шакиров",
+    "person-second-name-5": "Артур Альбертович",
+    "person-prof-5": "Эксперт, Геоиндикатор",
+
+    "slide-6_title": "Условия Участия",
+
+    "footer_contacts-title": "Контакты",
+    "footer-person": "Семенова Алия Аликовна",
+    "footer-phone": "+7 (986) 712-94-93",
+    "footer_location-title": "Место проведения",
+    "footer_location-bold": "Институт геологии и нефтегазовых технологий",
+    "footer_location-normal" : "КФУ\nРеспублика Татарстан, г. Казань, ул. Кремлевская 4/5"
   }
 }

@@ -8,6 +8,7 @@
 }
 
 .parallax__group-1 {
+    margin-top: 55px;
     display: flex;
     align-items: center;
     position: relative;

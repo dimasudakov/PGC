@@ -10,6 +10,10 @@
     font-size: calc(max(13px, 0.8vw)) !important;
 }
 
+.f-mx0_9 {
+    font-size: calc(max(15px, 1vw)) !important;
+}
+
 .f-mx1 {
     font-size: calc(max(19px, 1vw)) !important;
     font-family: "PT Sans";

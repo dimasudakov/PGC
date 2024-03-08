@@ -1,7 +1,6 @@
 
 .parallax__group-2 {
     position: relative;
-    height: calc(90vh - 2 * max(10vh, 60px));
     display: flex;
     padding: max(7vh, 60px) var(--page-content-padding);
 }

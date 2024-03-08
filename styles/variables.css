@@ -6,6 +6,7 @@
     --grey-color-1: #a8a8a8;
     --linear-gradient-1: linear-gradient(89.91deg, #00E0FF -1.02%, #00FA9C 99.96%);
     --linear-gradient-2: linear-gradient(-90deg, #0EE5CD -1.02%, #0094F1 100%);
+    --linear-gradient-3: linear-gradient(-30deg, #0094F1 40%,  #0EE5CD 60%, #0094F1 90%);
 
     --header-height: 7vh;
     --header-background-color: #eaeaea;
