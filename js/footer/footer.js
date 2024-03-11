@@ -13,20 +13,20 @@ const footerContent = `
         <div class="map-wrapper">
             <img src="assets/footer/map-wrapper.png" alt="" class="stroke">
             <div class="map-container">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A71f91eaad6eda709e303855dbf21ec0bb2ee9fed52252e28b51b84ba2e650605&amp;source=constructor" width="640" height="497" frameborder="0" class="abs-center"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A43e298d0140e1a5a77fd77b1b77e1a8724b14e5976151ecaf29879345461ca44&amp;source=constructor" class="map-abs-center"></iframe>
             </div>
         </div>
         <div class="info">
             <div class="contacts">
                 <div class="title f-2" id="footer_contacts-title"></div>
                 <ul>
-                    <li>
+                    <li id="f-user">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                         </div>
                         <div id="footer-person" class="f-mx1"></div>
                     </li>
-                    <li>
+                    <li id="f-call">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                         </div>
@@ -67,7 +67,7 @@ const footerContentMobile = `
             <div class="contacts">
                 <div class="title f-2" id="footer_contacts-title"></div>
                 <ul>
-                    <li>
+                    <li id="f-user">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                         </div>
@@ -77,9 +77,9 @@ const footerContentMobile = `
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
                         </div>
-                        <div class="f-mx1">pdc.conf@gmail.com</div>
+                        <div class="f-mx0_9">pdc.conf@gmail.com</div>
                     </li>
-                    <li>
+                    <li id="f-call">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                         </div>
@@ -90,7 +90,7 @@ const footerContentMobile = `
                             <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                         </div>
                         <a href="https://t.me/pgc_conf">
-                            <div class="f-mx1">@pgc_conf</div>
+                            <div class="f-mx0_9">@pgc_conf</div>
                         </a>
                     </li>
                 </ul>
@@ -104,7 +104,7 @@ const footerContentMobile = `
             </div>
         </div>
         <div id="footer-mobile" class="footer-mobile">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A71f91eaad6eda709e303855dbf21ec0bb2ee9fed52252e28b51b84ba2e650605&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A43e298d0140e1a5a77fd77b1b77e1a8724b14e5976151ecaf29879345461ca44&amp;source=constructor" width="100%" height="300"></iframe>
         </div>
      
 `

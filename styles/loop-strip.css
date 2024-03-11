@@ -138,9 +138,12 @@
         flex-direction: column;
         height: auto;
         width: 90%;
+        gap: 50px;
 
         .loop-group {
             text-align: center;
+            width: 100%; !important;
+
             .title {
                 display: flex;
                 margin-top: 10px;
@@ -165,6 +168,12 @@
                         /*width: 100% !important;*/
                     }
                 }
+                .gp {
+                    max-width: 25% !important;
+                }
+                .geo {
+                    max-width: 33% !important;
+                }
             }
         }
         .loop-group:first-child {
@@ -182,14 +191,14 @@
 }
 
 .wr-50 {
-    width: 45% !important;
+    width: 45%;
 }
 
 .wr-33 {
-    width: 30% !important;
+    width: 30%;
 }
 
 .wr-16 {
-    width: 14% !important;
+    width: 14%;
 }
 
