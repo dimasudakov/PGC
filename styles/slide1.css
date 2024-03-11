@@ -1,14 +1,5 @@
-.shell-top {
-    position: fixed;
-    right: -3vw;
-    top: 100px;
-    width: 25vw;
-    height: auto;
-    min-width: 200px;
-}
-
 .parallax__group-1 {
-    margin-top: 55px;
+    margin-top: var(--header-height);
     display: flex;
     align-items: center;
     position: relative;

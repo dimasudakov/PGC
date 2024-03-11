@@ -4,45 +4,95 @@
     position: relative;
     z-index: 1;
     padding: 40px var(--page-content-padding);
-    padding-bottom: 0;
 }
 
 .parallax__group-4 {
-    .title {
-        font-weight: bold;
-        color: white;
-        margin-bottom: 3vmax;
-    }
+    background-color: rgba(220, 220, 220, 0.44);
 
-    .content {
-        display: block;
+    .slide-4 {
         width: 100%;
-        height: auto;
-    }
-    .content-mobile {
-        display: none;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-weight: bold;
+        }
+
+        .p-payload {
+            display: flex;
+            flex-direction: column;
+            gap: 14vh;
+
+            .panels-group {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 2vw;
+
+                .panel {
+                    display: flex;
+                    flex: 1;
+                    flex-direction: column;
+                    background-color: white;
+                    border-radius: 3vmax;
+                    overflow: hidden;
+                    border: 1px solid #c0c0c0;
+
+                    .p-icon-wrapper {
+                        height: 8vh;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .p-icon {
+                            height: 80%;
+                        }
+                    }
+
+                    .p-title {
+                        padding: 4% 5%;
+                        font-weight: bold;
+                    }
+
+                    .p-info {
+                        padding: 0 5% 4%;
+                    }
+                }
+            }
+        }
+        .become-participant {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3vh;
+            height: 6vh;
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                color: white;
+                height: 100%;
+                width: 25%;
+                min-width: 340px;
+                background: radial-gradient(65.24% 82.04% at 75.37% 92.62%, #0EE5CD 0%, #0094F1 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+                box-shadow: 0px 0px 50px rgba(14, 229, 205, 0.5);
+                border-radius: 100px;
+            }
+        }
+
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .parallax__group-4 {
-        padding: 40px var(--page-content-padding-mobile) 0 var(--page-content-padding-mobile);
-    }
+.gradient {
+    background: var(--linear-gradient-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 600px) {
-    .parallax__group-4 {
-        height: 120vw;
-
-        .content {
-            display: none;
-        }
-        .content-mobile {
-            position: absolute;
-            left: -30%;
-            display: block;
-            width: 125%;
-            height: auto;
-        }
-    }
+.h-50 {
+    height: 50vh !important;
 }
