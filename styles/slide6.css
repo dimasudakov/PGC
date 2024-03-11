@@ -1,0 +1,15 @@
+.parallax__group-6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+
+    .title {
+        background: var(--linear-gradient-3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 120%;
+    }
+}

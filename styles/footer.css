@@ -3,7 +3,6 @@
     position: relative;
     z-index: 1;
     height: 80vh;
-    min-height: 400px;
     padding: 0 100px 0 50px;
     align-items: center;
 }
@@ -43,20 +42,28 @@
     }
 
     .info {
-        padding: 40px 0 40px 30px;
+        padding: 30px 0 40px 30px;
         flex-direction: column;
         flex: 1;
-        color: white;
+        color: #23376C;
         overflow: hidden;
 
         .contacts {
             .title {
+                background: var(--linear-gradient-3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-style: normal;
-                font-weight: 700;
-                font-size: 40px;
+                font-weight: bold;
                 line-height: 120%;
             }
 
+            .contacts-person {
+                background: #23376C;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+            }
             ul {
                 padding: 0;
                 gap: 1vw;
@@ -73,13 +80,16 @@
                     height: 3.5vw;
 
                     .logo {
-                        width: 3vw;
-                        height: 3vw;
+                        position: absolute;
+                        width: 11vw;
+                        height: 11vw;
+                        bottom: -107%;
+                        right: -75%;
                     }
                 }
 
                 a {
-                    color: white;
+                    color: #23376C;
                 }
             }
         }
@@ -87,9 +97,11 @@
         .location {
 
             .title {
+                background: var(--linear-gradient-3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-style: normal;
-                font-weight: 700;
-                font-size: 40px;
+                font-weight: bold;
                 line-height: 120%;
             }
 
@@ -104,7 +116,7 @@
 @media screen and (max-width: 900px) {
     .footer {
         flex-direction: column;
-        padding: 0 0 0 15px;
+        padding: 0 0 0 0px;
         height: min-content;
 
         .contacts {
@@ -113,7 +125,7 @@
             margin-bottom: 20px;
             .title {
                 font-weight: 700;
-                color: white;
+                color: #23376C;
             }
             ul {
                 display: flex;
@@ -129,7 +141,7 @@
                     min-width: 40%;
                     flex: 1;
                     text-wrap: none;
-                    color: white;
+                    color: #23376C;
 
                     .logo-wrapper {
                         position: relative;
@@ -137,18 +149,21 @@
                         height: 6vw;
 
                         .logo {
-                            width: 6vw;
-                            height: 6vw;
+                            position: absolute;
+                            width: 15vw;
+                            height: 15vw;
+                            bottom: -80%;
+                            right: -50%;
                         }
                     }
 
                     .a {
-                        color: white;
+                        color: #23376C;
                         text-wrap: nowrap;
                     }
 
                     a {
-                        color: white;
+                        color: #23376C;
                     }
                 }
             }
@@ -163,7 +178,7 @@
             .location {
                 display: flex;
                 flex-direction: column;
-                color: white;
+                color: #23376C;
                 flex: 1;
                 gap: 10px;
 
@@ -189,7 +204,7 @@
                     bottom: 0;
                     right: 0;
                     border-radius: 100%;
-                    border: 2px solid white;
+                    border: red;
                     overflow: hidden;
                     .yandex-map {
                         position: absolute;
@@ -268,25 +283,28 @@
     .footer {
         .back-mobile-1 {
             position: absolute;
-            right: -40px;
-            top: 5px;
+            right: -20px;
+            bottom: 65%;
+            width: max(20vw, 80px);
         }
         .back-mobile-2 {
             position: absolute;
-            top: 20%;
-            right: 10%;
+            top: 42%;
+            right: 1%;
+            width: max(10vw, 50px);
+            height: max(10vw, 50px);
         }
         .back-mobile-3 {
             position: absolute;
-            left: 15%;
-            bottom: -8%;
-            width: 15%;
-            transform: rotate(90deg);
+            left: 89%;
+            bottom: 64%;
+            width: 5%;
         }
         .back-mobile-4 {
             position: absolute;
-            bottom: 20%;
-            left: 30%;
+            bottom: 55%;
+            left: 94%;
+            width: 5%;
         }
         .back-mobile-5 {
             position: absolute;
@@ -305,4 +323,21 @@
         }
 
     }
+}
+
+.footer-mobile {
+    width: 100%;
+    z-index: 1;
+
+    .yandex-map {
+        width: 100%;
+        height: calc(100vw * 2 / 3);
+    }
+}
+
+.title-blob {
+    background: #23376C;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }

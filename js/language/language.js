@@ -23,8 +23,11 @@ function changePageLang() {
     }
     for (const key in translations[currentLang]) {
         const el = document.getElementById(key)
-        if(el) {
+        if (!el) continue
+        if (el.tagName !== 'IMG') {
             el.innerText = translations[currentLang][key];
+        } else {
+            el.src = translations[currentLang][key];
         }
     }
 
