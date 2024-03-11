@@ -84,7 +84,60 @@
     "footer-phone": "-----------------",
     "footer_location-title": "Location",
     "footer_location-bold": "Institute of Geology and Petroleum Technologies",
-    "footer_location-normal" : "KFU\n4/5 Kremlevskaya str., Kazan, Republic of Tatarstan, Russia"
+    "footer_location-normal" : "KFU\n4/5 Kremlevskaya str., Kazan, Republic of Tatarstan, Russia",
+
+    "panel-1-title": "Current trends in the development of oil and gas geochemistry",
+    "panel-1-p-1": "Modeling the hydrocarbons generation, migration and accumulation processes for oil and gas reservoirs prospecting",
+    "panel-1-p-2": "Practical aspects of the use of biomarker and isotopic characteristics of fluids to solve problems of oilfields prospecting and development",
+    "panel-1-p-3": "Study of the composition and properties of organic matter of oil and gas source rocks (pyrolytic, kinetic, coal petrographic, thermophysical studies and their application in the cycle of geological exploration)",
+    "panel-1-p-4": "Geochemistry of carbon-bearing rocks organic matter",
+
+    "panel-2-title": "Geochemistry of oil and gas reservoirs",
+    "panel-2-p-1": "Approaches to produced fluids analysis",
+    "panel-2-p-2": "Geochemical methods application in reservoir fluids properties study, geological processes inside the reservoir and management of oil and gas field development",
+    "panel-2-p-3": "Secondary changes in reservoir hydrocarbons (biodegradation, sulfate reduction, etc.)",
+
+    "panel-3-title": "Hydrogeology",
+    "panel-3-p-1": "Formation water as a source of hydromineral raw materials",
+    "panel-3-p-2": "Methods for cost-effective recovery of associated components",
+    "panel-3-p-3": "Methods for studying formation and pore waters composition",
+    "panel-3-p-4": "Hydrogeological monitoring of field development",
+
+    "panel-4-title": "Reservoir simulation of EOR and unconventional hydrocarbons development",
+    "panel-4-p-1": "Simulation of chemical, physical, gas and thermal EOR",
+    "panel-4-p-2": "Modeling of well interventions, methods for developing  reservoirs of ultra-viscous oil and natural bitumen,  source rocks hydrocarbon deposits, tight oil",
+
+    "panel-5-title": "Integrated reservoir simulation",
+    "panel-5-p-1": "Application of geochemical, geomechanical, petrophysical, geostatistical and other data in reservoir simulation",
+    "panel-5-p-2": "Methods of history matching and uncertainty reduction, auto-matching, probabilistic and integrated modeling",
+
+    "panel-6-title": "Reservoir simulation of gas-oil and gas condensate fields",
+    "panel-6-p-1": "Features and methods of gas-oil and gas-condensate fields development modeling ",
+    "panel-6-p-2": "Methods for increasing gas condensate production",
+    "panel-6-p-3": "Methods for dealing with complications in gas condensate fields development",
+
+    "panel-7-title": "Kinetics of organic matter",
+    "panel-7-p-1": "Kinetics of organic matter transformation",
+    "panel-7-p-2": "Vision for further development, challenges",
+    "panel-7-p-3": "Integrating kinetic studies results into hydrocarbon systems model, calibrating kinetic studies to the actual fluids properties for open fields",
+
+    "panel-8-title": "Formation brines as a source of hydromineral raw materials",
+    "panel-8-p-1": "Groundwater composition assessment",
+    "panel-8-p-2": "Issues related to hydromineral raw materials production",
+    "panel-8-p-3": "Economic assessment of associated valuable components production  together with oil production",
+    "panel-8-p-4": "Industrial concentrations of metals and methods for their extraction",
+    "panel-8-p-5": "Formation and pore waters composition analysis, results use in field development monitoring, integration into a petrophysical model, etc.",
+
+    "panel-9-title": "Geochemical methods application in reservoir simulation",
+    "panel-9-p-1": "Practical aspects of integrating geochemical research results into reservoir simulation",
+    "panel-9-p-2": "Positive and negative integration experiences",
+    "panel-9-p-3": "Opportunities for further development",
+
+    "panel-10-title": "Startup Pitching Sessions on oil and gas topics",
+    "panel-10-p-1": "Startups present their innovative developments on oil and gas topics",
+    "panel-10-p-2": "Conference participants will be able to ask questions and evaluate the proposed technologies",
+    "panel-10-p-3": "For startups, this is an opportunity to find a Customer to test and implement their developments",
+    "panel-10-p-4": "Companies will be able to find a new promising technology improving the efficiency of their work"
   },
 
   "Ru": {
@@ -175,6 +228,61 @@
     "footer-phone": "+7 (986) 712-94-93",
     "footer_location-title": "Место проведения",
     "footer_location-bold": "Институт геологии и нефтегазовых технологий",
-    "footer_location-normal" : "КФУ\nРеспублика Татарстан, г. Казань, ул. Кремлевская 4/5"
+    "footer_location-normal" : "КФУ\nРеспублика Татарстан, г. Казань, ул. Кремлевская 4/5",
+
+    "panel-1-title": "Актуальные направления развития геохимии нефти и газа",
+    "panel-1-p-1": "Моделирование процессов генерации, миграции и аккумуляции углеводородов для прогноза залежей нефти и газа",
+    "panel-1-p-2": "Практические аспекты применения биомаркерных, изотопных характеристик флюидов для решения задач в области поиска и разработки месторождений углеводородов",
+    "panel-1-p-3": "Изучение состава и свойств органического вещества нефтегазоматеринских пород (пиролитические, кинетические, углепетрографические, теплофизические исследования и их применение в цикле геологоразведочных работ)",
+    "panel-1-p-4": "Геохимия органического вещества углесодержащих пород",
+
+    "panel-2-title": "Геохимия резервуаров нефти и газа",
+    "panel-2-p-1": "Подходы к анализу добываемых флюидов",
+    "panel-2-p-2": "Практическое применение методов геохимии в исследовании свойств пластовых флюидов, геологических процессов внутри резервуара и управления разработкой месторождений нефти и газа",
+    "panel-2-p-3": "Вторичные изменения углеводородов в залежах (биодеградация, сульфатредукция и т.д.)",
+
+    "panel-3-title": "Гидрогеология",
+    "panel-3-p-1": "Пластовая вода как источник гидроминерального сырья",
+    "panel-3-p-2": "Способы рентабельного извлечения попутных компонентов",
+    "panel-3-p-3": "Методы изучения состава пластовых и поровых вод",
+    "panel-3-p-4": "Гидрогеологический мониторинг разработки месторождений",
+
+    "panel-4-title": "Гидродинамическое моделирование МУН и разработка нетрадиционных УВ",
+    "panel-4-p-1": "Моделирование химических, физических, газовых, тепловых МУН",
+    "panel-4-p-2": "Моделирование ГТМ, методов разработки залежей сверхвязкой нефти и природных битумов, залежей УВ в нефтематеринских породах, ТрИЗ",
+
+    "panel-5-title": "Комплексное гидродинамическое моделирование",
+    "panel-5-p-1": "Применение геохимических, геомеханических, петрофизических,\nгеостатистических и других данных в ГДМ",
+    "panel-5-p-2": "Методы адаптации и снижения\nнеопределенности при ГДМ, автоадаптация, вероятностное и\nинтегрированное моделирование",
+
+    "panel-6-title": "ГДМ газонефтяных и газоконденсатных месторождений",
+    "panel-6-p-1": "Особенности и методы моделирования разработки газонефтяных и\nгазоконденсатных месторождений",
+    "panel-6-p-2": "Методы повышения конденсатоотдачи",
+    "panel-6-p-3": "Методы\nборьбы с осложнениями при разработке газоконденсатных месторождений",
+
+    "panel-7-title": "Кинетика органического вещества",
+    "panel-7-p-1": "Кинетика преобразования органического вещества",
+    "panel-7-p-2": "Видение дальнейшего развития направления, вызовы",
+    "panel-7-p-3": "Интегрирование результатов кинетических исследований в построение модели углеводородных систем, калибровка кинетических исследований на фактические свойства флюидов открытых месторождений",
+
+    "panel-8-title": "Пластовые рассолы как источник гидроминерального сырья",
+    "panel-8-p-1": "Оценка состава подземных вод",
+    "panel-8-p-2": "Рассмотрение вопросов извлечения гидроминерального сырья",
+    "panel-8-p-3": "Экономическая оценка попутного извлечения вместе с нефтью ценных компонентов",
+    "panel-8-p-4": "Промышленные концентрации металлов и способы их извлечения",
+    "panel-8-p-5": "Анализ состава пластовых и поровых вод, практическое применение результатов при контроле разработки месторождения, интегрирование в петрофизическую модель и т.д.",
+
+    "panel-9-title": "Применение геохимических методов в ГДМ",
+    "panel-9-p-1": "Практические аспекты интеграции результатов геохимических исследований в ГДМ",
+    "panel-9-p-2": "Положительный и отрицательный опыт интеграции",
+    "panel-9-p-3": "Возможности для дальнейшего развития",
+
+    "panel-10-title": "Питч-сессия стартапов по нефтегазовой тематике",
+    "panel-10-p-1": "Стартапы презентуют свои инновационные наработки по нефтегазовой тематике",
+    "panel-10-p-2": "Участники конференции смогут задать интересующие вопросы и оценить предлагаемые технологии",
+    "panel-10-p-3": "Для стартапов это возможность найти Заказчика для опробования и внедрения своих разработок",
+    "panel-10-p-4": "Для Компаний - найти новую перспективную технологию для повышения эффективности своей работы",
+
+    "button-add": "Стать участником"
   }
 }
