@@ -173,7 +173,7 @@
 
 .slide5-lines {
     position: absolute;
-    margin-top: min(14%, 277px);
+    top: 35%;
     width: 100%;
     z-index: 1001;
 }

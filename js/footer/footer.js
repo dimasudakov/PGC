@@ -13,7 +13,7 @@ const footerContent = `
         <div class="map-wrapper">
             <img src="assets/footer/map-wrapper.png" alt="" class="stroke">
             <div class="map-container">
-                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A71f91eaad6eda709e303855dbf21ec0bb2ee9fed52252e28b51b84ba2e650605&amp;source=constructor" width="640" height="497" frameborder="0"></iframe>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A71f91eaad6eda709e303855dbf21ec0bb2ee9fed52252e28b51b84ba2e650605&amp;source=constructor" width="640" height="497" frameborder="0" class="abs-center"></iframe>
             </div>
         </div>
         <div class="info">
