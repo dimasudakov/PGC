@@ -31,6 +31,22 @@ function changePageLang() {
         }
     }
 
+    if (currentLang === "En") {
+        if (document.getElementById('f-user')) {
+            document.getElementById('f-user').style.display = 'none';
+        }
+        if (document.getElementById('f-call')) {
+            document.getElementById('f-call').style.display = 'none';
+        }
+    } else {
+        if (document.getElementById('f-user')) {
+            document.getElementById('f-user').style.display = 'flex';
+        }
+        if (document.getElementById('f-call')) {
+            document.getElementById('f-call').style.display = 'flex';
+        }
+    }
+
     if(document.getElementById('slide-2_image')) {
         document.getElementById('slide-2_image').src = "assets/slide2/" + currentLang.toLowerCase() + "-image.png"
     }

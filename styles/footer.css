@@ -59,9 +59,7 @@
             }
 
             .contacts-person {
-                background: #23376C;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: #23376C;
                 font-weight: bold;
             }
             ul {
@@ -147,6 +145,7 @@
                         position: relative;
                         width: 8vw;
                         height: 6vw;
+                        margin-right: 4px;
 
                         .logo {
                             position: absolute;
