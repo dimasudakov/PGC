@@ -1,14 +1,18 @@
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_b_122_509)">
+    <g id="24 / arrows / arrow-top" filter="url(#filter0_b_444_382)">
         <rect width="40" height="40" rx="20" fill="#262525" fill-opacity="0.01"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6668 9.02366V36.6666H18.3335V9.02366L7.8453 19.5118L5.48828 17.1548L20.0001 2.64294L34.512 17.1548L32.1549 19.5118L21.6668 9.02366Z" fill="white"/>
+        <path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 9.02378V36.6668H18.3333V9.02378L7.84518 19.5119L5.48816 17.1549L20 2.64307L34.5118 17.1549L32.1548 19.5119L21.6667 9.02378Z" fill="url(#paint0_radial_444_382)"/>
     </g>
     <defs>
-        <filter id="filter0_b_122_509" x="-6" y="-6" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter0_b_444_382" x="-6" y="-6" width="52" height="52" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
             <feFlood flood-opacity="0" result="BackgroundImageFix"/>
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="3"/>
-            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_122_509"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_122_509" result="shape"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_444_382"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_444_382" result="shape"/>
         </filter>
+        <radialGradient id="paint0_radial_444_382" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.3639 34.1554) rotate(-124.148) scale(33.7302 21.4298)">
+            <stop stop-color="#0EE5CD"/>
+            <stop offset="1" stop-color="#0094F1"/>
+        </radialGradient>
     </defs>
 </svg>
