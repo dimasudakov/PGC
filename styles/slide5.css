@@ -2,6 +2,8 @@
 .parallax__group-5 {
     position: relative;
     width: 100%;
+    z-index: 3;
+    background-color: white;
 }
 
 .slide5 {
