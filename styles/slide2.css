@@ -3,6 +3,8 @@
     position: relative;
     display: flex;
     padding: max(7vh, 60px) var(--page-content-padding);
+    z-index: 3;
+    background-color: white;
 }
 
 

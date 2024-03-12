@@ -3,16 +3,17 @@
     flex-direction: column;
     position: relative;
     z-index: 1;
-    padding: 40px var(--page-content-padding);
+    transform-style: preserve-3d;
+    width: 100%;
 }
 
+
 .parallax__group-4 {
-    background-color: rgba(220, 220, 220, 0.44);
 
     .slide-4 {
-        width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 40px var(--page-content-padding);
 
         .title {
             font-weight: bold;
@@ -27,13 +28,15 @@
                 display: flex;
                 width: 100%;
                 justify-content: space-between;
-                gap: 2vw;
+                flex-direction: row;
+                gap: 2vmax;
+                position: relative;
 
                 .panel {
                     display: flex;
                     flex: 1;
                     flex-direction: column;
-                    background-color: white;
+                    background-color: rgba(255, 255, 255, 0.76);
                     border-radius: 3vmax;
                     overflow: hidden;
                     border: 1px solid #c0c0c0;
@@ -60,6 +63,19 @@
                     }
                 }
             }
+            @media screen and (max-width: 1260px) {
+                .panels-group {
+                    flex-direction: column;
+
+                    .panel {
+                        width: 90%;
+                    }
+                }
+
+                .fl-end {
+                    align-items: end;
+                }
+            }
         }
         .become-participant {
             width: 100%;
@@ -83,7 +99,11 @@
                 border-radius: 100px;
             }
         }
-
+    }
+    @media screen and (max-width: 800px) {
+        .slide-4 {
+            padding: 40px var(--page-content-padding-mobile);
+        }
     }
 }
 
@@ -95,4 +115,68 @@
 
 .h-50 {
     height: 50vh !important;
+}
+
+.bg-title-1 {
+    position: absolute;
+    top: -12%;
+    z-index: -100;
+    right: 3%;
+    width: 50%;
+    height: auto;
+}
+
+.bg-title-2 {
+    position: absolute;
+    top: -13%;
+    z-index: -100;
+    left: 5%;
+    width: 70%;
+    height: auto;
+}
+
+.bg-title-3 {
+    position: absolute;
+    top: -13%;
+    z-index: -100;
+    right: 3%;
+    width: 70%;
+    height: auto;
+}
+
+@media screen and (max-width: 1260px) {
+    .bg-title-1 {
+        top: -2%;
+        width: 80%;
+    }
+    .bg-title-2 {
+        top: -2%;
+        width: 90%;
+    }
+    .bg-title-3 {
+        width: 90%;
+        top: -1.5%;
+    }
+}
+
+.parallax__layer--back-slide4 {
+    transform: translateZ(-1px) scale(2);
+    z-index: -100;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    bottom: 0;
+    left: 0%;
+}
+
+.img-1 {
+    position: absolute;
+    right: 4%;
+    top: 25%;
+}
+.img-2 {
+    position: absolute;
+    left: 6%;
+    top: 60%;
 }

@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     padding: max(5vh, 60px) var(--page-content-padding);
+    background-color: white;
+    z-index: 3;
 
     .lines {
         position: absolute;
