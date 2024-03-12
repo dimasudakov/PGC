@@ -24,25 +24,25 @@ const footerContent = `
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-user.png" alt="" class="logo abs-center" />
                         </div>
-                        <div id="footer-person" class="f-mx1"></div>
+                        <div id="footer-person" class="f-mx1" style="z-index: 10;"></div>
                     </li>
                     <li id="f-call">
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-call.png" alt="" class="logo abs-center" />
                         </div>
-                        <div id="footer-phone" class="f-mx1"></div>
+                        <div id="footer-phone" class="f-mx1"  style="z-index: 10;"></div>
                     </li>
                     <li>
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
                         </div>
-                        <div class="f-mx1">pgc.conf@gmail.com</div>
+                        <div class="f-mx1" style="z-index: 10;">pgc.conf@gmail.com</div>
                     </li>
                     <li>
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                         </div>
-                        <a href="https://t.me/pgc_conf">
+                        <a href="https://t.me/pgc_conf" style="z-index: 10;">
                             <div class="f-mx1">@pgc_conf</div>
                         </a>
                     </li>
@@ -89,7 +89,7 @@ const footerContentMobile = `
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-tg.png" alt="" class="logo abs-center" />
                         </div>
-                        <a href="https://t.me/pgc_conf">
+                        <a href="https://t.me/pgc_conf" >
                             <div class="f-mx0_9">@pgc_conf</div>
                         </a>
                     </li>

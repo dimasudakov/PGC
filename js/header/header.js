@@ -12,9 +12,12 @@ function updateHeader() {
     <div class="header-item f-mx1" id="header_orientations"></div>
     <div class="header-item f-mx1" id="header_terms"></div>
     <div class="header-item f-mx1" id="header_program"></div>
-    <a class="header-item f-mx1" href="https://docs.google.com/forms/d/e/1FAIpQLScjIwM_fqLaUyaJCpZesMHfJPYK167f-lKuGipJBYgEXpsh0Q/viewform?usp=sf_link" id="header_sign_up"></a>
+    <a class="header-item f-mx1" href="https://docs.google.com/forms/d/e/1FAIpQLSfpNiuhsIXb71GjPloVdhShmMiI2IaME_OvUwD9rbFGMIjkRQ/viewform?usp=sf_link" id="header_sign_up"></a>
     <div class="header-item f-mx1" id="header_contacts"></div>
     <a class="header-item f-mx1" id="langButton">Ru / Eng</a>
+    <a class="header-item" style="margin-left: 3vw; height: 70%;" href="https://t.me/pgc_conf">
+        <img src="assets/header/tg-logo.png" alt="" style="height: 100%;">
+    </a>
   `;
 
     const mobileHeader = `

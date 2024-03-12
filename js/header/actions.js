@@ -6,17 +6,17 @@ if (headerAbout) headerAbout.addEventListener('click', function() {
 
 const headerExperts= document.getElementById('header_experts')
 if (headerExperts) headerExperts.addEventListener('click', function() {
-
+    document.getElementById('group3').scrollIntoView({behavior: 'smooth'})
 })
 
 const headerOrientation= document.getElementById('header_orientations')
 if (headerOrientation) headerOrientation.addEventListener('click', function() {
-    document.getElementById('group3').scrollIntoView({behavior: 'smooth'})
+    document.getElementById('group4').scrollIntoView({behavior: 'smooth'})
 })
 
 const headerTerms= document.getElementById('header_terms')
 if (headerTerms) headerTerms.addEventListener('click', function() {
-    document.getElementById('group4').scrollIntoView({behavior: 'smooth'})
+    document.getElementById('group5').scrollIntoView({behavior: 'smooth'})
 })
 
 const headerProgram= document.getElementById('header_program')
@@ -36,7 +36,7 @@ if (headerProgram) headerProgram.addEventListener('click', function() {
 
 const headerSignUp = document.getElementById('header_sign_up')
 if (headerSignUp) headerSignUp.addEventListener('click', function() {
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNiuhsIXb71GjPloVdhShmMiI2IaME_OvUwD9rbFGMIjkRQ/viewform?usp=sf_link';
 })
 
 const headerContacts = document.getElementById('header_contacts')
@@ -58,9 +58,19 @@ if(navbarAbout) navbarAbout.addEventListener('click', function() {
     document.getElementById('group2').scrollIntoView({behavior: 'smooth'})
 })
 
+const navbarExperts = document.getElementById('navbar_experts')
+if(navbarExperts) navbarExperts.addEventListener('click', function() {
+    document.getElementById('group3').scrollIntoView({behavior: 'smooth'})
+})
+
+const navbarOrientations = document.getElementById('navbar_orientations')
+if(navbarOrientations) navbarOrientations.addEventListener('click', function() {
+    document.getElementById('group4').scrollIntoView({behavior: 'smooth'})
+})
+
 const navbarTerms = document.getElementById('navbar_terms')
 if(navbarTerms) navbarTerms.addEventListener('click', function() {
-    document.getElementById('group4').scrollIntoView({behavior: 'smooth'})
+    document.getElementById('group5').scrollIntoView({behavior: 'smooth'})
 })
 
 const navbarProgram = document.getElementById('navbar_program')
@@ -95,12 +105,12 @@ if(navbarTezis) navbarTezis.addEventListener('click', function() {
 
 const navbarSignUp = document.getElementById('navbar_sign_up')
 if(navbarSignUp) navbarSignUp.addEventListener('click', function() {
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNiuhsIXb71GjPloVdhShmMiI2IaME_OvUwD9rbFGMIjkRQ/viewform?usp=sf_link';
 })
 
 const navbarTgLink = document.getElementById('navbar_tg-link')
 if(navbarTgLink) navbarTgLink.addEventListener('click', function() {
-    window.location.href = 'https://t.me/htr_conf';
+    window.location.href = 'https://t.me/pgc_conf';
 })
 
 const navbarContacts = document.getElementById('navbar_contacts')
