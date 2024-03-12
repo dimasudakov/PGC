@@ -51,6 +51,16 @@ function changePageLang() {
         document.getElementById('slide-2_image').src = "assets/slide2/" + currentLang.toLowerCase() + "-image.png"
     }
     
+    if(document.getElementById('bg-title-1')) {
+        document.getElementById('bg-title-1').src = "assets/slide4/" + currentLang.toLowerCase() + "-bg-title-1.png"
+    }
+    if(document.getElementById('bg-title-2')) {
+        document.getElementById('bg-title-2').src = "assets/slide4/" + currentLang.toLowerCase() + "-bg-title-2.png"
+    }
+    if(document.getElementById('bg-title-3')) {
+        document.getElementById('bg-title-3').src = "assets/slide4/" + currentLang.toLowerCase() + "-bg-title-3.png"
+    }
+    
     setCompanyIcon("kpfu", "kpfu.png")
     setCompanyIcon("planet", "planet.png")
     setCompanyIcon("gasprom", "gasprom.png")

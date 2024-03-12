@@ -170,6 +170,12 @@
     left: 0%;
 }
 
+@media screen and (max-width: 1260px) {
+    .parallax__layer--back-slide4 {
+        transform: translateZ(-1px) scale(1.4);
+    }
+}
+
 .img-1 {
     position: absolute;
     right: 4%;

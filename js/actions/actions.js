@@ -6,7 +6,7 @@ document.getElementById('slide-1_action-1').addEventListener('click', function()
 });
 
 document.getElementById('slide-1_action-2').addEventListener('click', function() {
-    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfatxuGtKkXNncB26GQBg0F7biL_2lqGsasfD20kfUe2iQk9w/viewform?usp=sf_link';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNiuhsIXb71GjPloVdhShmMiI2IaME_OvUwD9rbFGMIjkRQ/viewform?usp=sf_link';
 });
 
 // TODO add document
@@ -25,7 +25,7 @@ document.getElementById('slide-1_action-3').addEventListener('click', function()
 });
 
 document.getElementById('slide-1_action-4').addEventListener('click', function() {
-    window.location.href = 'https://t.me/htr_conf';
+    window.location.href = 'https://t.me/pgc_conf';
 });
 
 
