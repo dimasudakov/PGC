@@ -1,6 +1,6 @@
 let langButton = document.getElementById('langButton')
 
-let currentLang = localStorage.getItem("language") || "Ru";
+let currentLang = localStorage.getItem("language") || "En";
 let translations
 
 langButton.addEventListener('click', handleChangeLanguage)
@@ -59,6 +59,10 @@ function changePageLang() {
     }
     if(document.getElementById('bg-title-3')) {
         document.getElementById('bg-title-3').src = "assets/slide4/" + currentLang.toLowerCase() + "-bg-title-3.png"
+    }
+    
+    if (document.getElementById("slide-1_blob")) {
+        document.getElementById("slide-1_blob").src = "assets/header/" + currentLang.toLowerCase() + "-blob.png"
     }
     
     setCompanyIcon("kpfu", "kpfu.png")

@@ -74,6 +74,10 @@
                     width: auto;
                     max-width: 100%;
                 }
+
+                .gasprom {
+                    max-height: 60% !important;
+                }
             }
         }
     }

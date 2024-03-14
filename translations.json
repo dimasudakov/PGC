@@ -5,7 +5,6 @@
     "slide-1_action-3": "Become a Participant",
     "slide-1_action-4": "Subscribe",
     "slide-1_action-5": "Abstract Template",
-    "slide-1_blob": "assets/header/blob-en.png",
     "header_about": "About conference",
     "header_experts": "Experts",
     "header_orientations": "Sections",
@@ -139,7 +138,7 @@
     "panel-10-p-3": "For startups, this is an opportunity to find a Customer to test and implement their developments",
     "panel-10-p-4": "Companies will be able to find a new promising technology improving the efficiency of their work",
 
-    "button-add": "Become a participant"
+    "slide4-become-participant": "Become a participant"
   },
 
   "Ru": {
@@ -148,7 +147,6 @@
     "slide-1_action-3": "Стать участником",
     "slide-1_action-4": "Подпишитесь на нас",
     "slide-1_action-5": "Шаблон оформления тезисов",
-    "slide-1_blob": "assets/header/blob-ru.png",
     "header_about": "О конференции",
     "header_experts": "Эксперты",
     "header_orientations": "Направления",
@@ -285,6 +283,6 @@
     "panel-10-p-3": "Для стартапов это возможность найти Заказчика для опробования и внедрения своих разработок",
     "panel-10-p-4": "Для Компаний - найти новую перспективную технологию для повышения эффективности своей работы",
 
-    "button-add": "Стать участником"
+    "slide4-become-participant": "Стать участником"
   }
 }
