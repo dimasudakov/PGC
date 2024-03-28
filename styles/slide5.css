@@ -61,12 +61,14 @@
             width: 12vw;
             min-width: 210px;
             height: 300px;
+            position: relative;
 
             .logo-wrapper {
                 width: 100%;
                 height: 120px;
                 position: relative;
                 margin-bottom: 1.45vw;
+                z-index:1002;
 
                 .logo {
                     height: auto;
@@ -85,6 +87,8 @@
                 text-align: center;
                 font-size: 12px;
                 width: 100%;
+                position: relative;
+                z-index:1003;
             }
         }
     }

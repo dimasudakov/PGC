@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (min-width: 901px) {
+    .parallax__group-3 {
+        display: none;
+    }
+}
+
 
 .parallax__group-3 {
 

@@ -288,7 +288,7 @@
     height: 37%;
     width: 62%;
     right: 0;
-    bottom: max(5vh, 60px);
+    bottom: 0;
 }
 
 @media screen and (max-width: 900px) {
