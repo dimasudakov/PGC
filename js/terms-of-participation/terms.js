@@ -39,7 +39,7 @@ const slide5Content = `
                     <div class="logo-wrapper">
                         <img src="assets/slide5/logo5.png" alt="" class="logo abs-center">
                     </div>
-                    <div class="dark-blue-text info-slide-5 f-mx0_8" id="slide6_title_6">
+                    <div class="dark-blue-text info-slide-5 f-mx0_8 pointer" id="slide6_title_6">
                         
                     </div>
                 </div>
