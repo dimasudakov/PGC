@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     padding: max(7vh, 60px) var(--page-content-padding);
+    padding-bottom: 0;
     z-index: 3;
     background-color: white;
 }
@@ -49,7 +50,7 @@
         .time-left {
             display: flex;
             flex-direction: column;
-            margin-top: max(30px, 4vh);
+            margin-top: max(60px, 6vh);
             .title {
                 color: rgba(35, 55, 108, 0.5);
                 margin-bottom: max(20px, 2vh);
