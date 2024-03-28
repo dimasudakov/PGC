@@ -105,12 +105,12 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
     },
-    .tables-title {
-        color: white;
-        font-weight: bold;
-        margin-bottom: max(20px, 4vh);
-        z-index: 1;
-    }
+.tables-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: max(20px, 4vh);
+    z-index: 1;
+}
 
     .tables-title {
         margin-top: max(40px, 8vh);
@@ -223,4 +223,3 @@
         padding: 10px 30px;
     }
 }
-
