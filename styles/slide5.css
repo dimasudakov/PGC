@@ -25,6 +25,11 @@
         -webkit-text-fill-color: transparent;
         font-weight: bold;
     }
+    .rules {
+        color: black;
+        text-decoration: underline;
+        cursor: pointer;
+    }
     .download-doc {
         position: absolute;
         right: 100px;

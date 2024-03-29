@@ -3,6 +3,7 @@ const slide5 = document.getElementById('slide5')
 
 const slide5Content = `
             <div class="title f-3" id="slide6_title_1"></div>
+            <a href="https://drive.google.com/file/d/1P3uAPwSNUOlyYD3vNKgBwYndaLEwWN9W/view" target="_blank" class="rules f-0_8" id="slide6_rules">Правила и условия подачи тезисов</a>
             
             <div class="payload">
                 <div class="item">

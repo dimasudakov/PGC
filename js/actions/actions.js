@@ -5,7 +5,7 @@ document.getElementById('slide-1_action-1').addEventListener('click', function()
     group2.scrollIntoView({behavior: 'smooth'});
 });
 
-document.getElementById('slide-1_action-2').addEventListener('click', function() {
+document.getElementById('slide-1_action-3').addEventListener('click', function() {
     window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfpNiuhsIXb71GjPloVdhShmMiI2IaME_OvUwD9rbFGMIjkRQ/viewform?usp=sf_link';
 });
 
@@ -15,7 +15,7 @@ document.getElementById('slide4-become-participant').addEventListener('click', f
 
 
 // TODO add document
-document.getElementById('slide-1_action-3').addEventListener('click', function() {
+document.getElementById('slide-1_action-2').addEventListener('click', function() {
     var path = '/docs/conference_program.pdf';
 
     var link = document.createElement('a');

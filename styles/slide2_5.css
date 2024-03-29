@@ -52,15 +52,28 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        margin-bottom: -2vw;
+        margin-bottom: -0.5vw;
+        position: relative;
     }
 
     .person-img-1 {
-        width: 100%;
+        top: -20px;
+        width: 115%;
     }
 
     .person-img-2 {
-        width: 120%;
+        width: 90%;
+        position: relative;
+
+        .ps-img-2 {
+            position: absolute;
+            top: -7.5%;
+            left: -7.5%;
+            width: 115%;
+        }
+        .ps-img-3 {
+            width: 100%;
+        }
     }
 
     .person-line {
@@ -248,7 +261,7 @@
 }
 
 .slide2_5-person-img-1 {
-    width: 60%;
+    width: 45%;
 }
 
 .person-right {
