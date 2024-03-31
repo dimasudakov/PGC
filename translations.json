@@ -134,6 +134,8 @@
     "person-under-first-name-5": "Arthur Shakirov",
     "person-under-prof-5": "Expert, Geoindicator",
 
+    "group-4_title": "Conference Sections",
+
     "panel-3-title": "Hydrogeology",
     "panel-3-p-1": "Formation water as a source of hydromineral raw materials",
     "panel-3-p-2": "Methods for cost-effective recovery of associated components",
@@ -267,6 +269,8 @@
     "footer_location-title": "Место проведения",
     "footer_location-bold": "Институт геологии и нефтегазовых технологий",
     "footer_location-normal" : "КФУ\nРеспублика Татарстан, г. Казань, ул. Кремлевская 4/5",
+
+    "group-4_title": "Направления конференции",
 
     "panel-1-title": "Актуальные направления развития геохимии нефти и газа",
     "panel-1-p-1": "Моделирование процессов генерации, миграции и аккумуляции углеводородов для прогноза залежей нефти и газа",

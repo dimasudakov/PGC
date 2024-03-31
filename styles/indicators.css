@@ -1,0 +1,23 @@
+
+
+.parallax__group-indicators {
+    position: relative;
+    width: 100%;
+    z-index: 101323232329;
+    background-color: white;
+    margin-top: 50px;
+    min-height: 100px;
+
+    .indicator-img {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .parallax__group-indicators {
+        display: none;
+    }
+}

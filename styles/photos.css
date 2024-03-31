@@ -1,0 +1,29 @@
+
+.parallax__group-photos {
+    position: relative;
+    width: 100%;
+    z-index: 101323232329;
+    margin-top: 50px;
+    height: max(300px, 25vh);
+
+    .photo-wrapper {
+        position: absolute;
+        z-index: 100;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        animation: slideLeft 15s linear infinite;
+
+        .photo {
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .parallax__group-photos {
+        display: none;
+    }
+}

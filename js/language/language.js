@@ -1,6 +1,6 @@
 let langButton = document.getElementById('langButton')
 
-let currentLang = localStorage.getItem("language") || "En";
+let currentLang = localStorage.getItem("language") || "Ru";
 let translations
 
 langButton.addEventListener('click', handleChangeLanguage)
@@ -63,6 +63,9 @@ function changePageLang() {
     
     if (document.getElementById("slide-1_blob")) {
         document.getElementById("slide-1_blob").src = "assets/header/" + currentLang.toLowerCase() + "-blob.png"
+    }
+    if (document.getElementById("indicator-img")) {
+        document.getElementById("indicator-img").src = "assets/indicators/" + currentLang.toLowerCase() + "-indicators.png"
     }
     
     setCompanyIcon("kpfu", "kpfu.png")

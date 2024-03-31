@@ -2,7 +2,7 @@
 .parallax__group-5 {
     position: relative;
     width: 100%;
-    z-index: 3;
+    z-index: 3343452345325324;
     background-color: white;
 }
 
@@ -65,7 +65,7 @@
             flex-direction: column;
             width: 12vw;
             min-width: 210px;
-            height: 300px;
+            height: max(220px, 25vh);
             position: relative;
 
             .logo-wrapper {
@@ -184,7 +184,7 @@
 
 .slide5-lines {
     position: absolute;
-    top: 35%;
+    top: 45%;
     width: 100%;
     z-index: 1001;
 }
