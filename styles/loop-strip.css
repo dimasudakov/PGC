@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    width: 200%;
+    width: 270%;
     min-width: 3200px;
     justify-content: center;
 
@@ -42,6 +42,7 @@
 
         .title {
             margin-top: 4px;
+            margin-bottom: 10px;
             color: #23376C;
             font-style: normal;
             font-weight: 700;
@@ -52,7 +53,7 @@
         }
 
         .logo-container {
-            height: 68%;
+            height: 38%;
             display: flex;
             justify-content: space-evenly;
             flex-direction: row;
@@ -66,18 +67,20 @@
                 display: flex;
                 align-items: center;
                 flex: 1;
-                justify-content: center;
+                justify-content: flex-start;
 
                 .logo {
                     max-height: 100%;
-                    height: auto;
+                    height: 100%;
                     width: auto;
                     max-width: 100%;
                 }
-
-                .gasprom {
-                    max-height: 60% !important;
-                }
+            }
+            a.gp {
+                flex: 0.6 !important;
+            }
+            a.cdo {
+                flex: 0.7 !important;
             }
         }
     }
@@ -158,25 +161,33 @@
             .logo-container {
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-evenly;
                 flex-wrap: wrap;
-                height: auto;
+                flex: 1;
+                padding-bottom: 0;
+                max-height: 40px;
 
                 a {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex: 1;
+                    min-height: 100% !important;
                     .logo {
-                        /*height: 54px;*/
-                        /*width: 100% !important;*/
+                        height: 100% !important;
                     }
                 }
-                .gp {
-                    max-width: 25% !important;
+                a.gp {
+                    height: 100%;
+                    max-width: 16%;
                 }
-                .geo {
-                    max-width: 33% !important;
+                a.geo {
+                    height: 100%;
+                    max-width: 32%;
+                }
+                .cdo {
+                    height: 100%;
+                    max-width: 32%;
                 }
             }
         }
@@ -195,14 +206,26 @@
 }
 
 .wr-50 {
-    width: 45%;
+    width: 40%;
 }
 
 .wr-33 {
-    width: 30%;
+    width: 40%;
 }
 
 .wr-16 {
     width: 14%;
+}
+
+@media screen and (max-width: 850px) {
+    .wr-50 {
+        min-height: 100px;
+    }
+
+    .wr-33 {
+    }
+
+    .wr-16 {
+    }
 }
 
