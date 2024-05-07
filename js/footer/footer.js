@@ -77,7 +77,7 @@ const footerContentMobile = `
                         <div class="logo-wrapper">
                             <img src="assets/footer/logo-email.png" alt="" class="logo abs-center" />
                         </div>
-                        <div class="f-mx0_9">pdc.conf@gmail.com</div>
+                        <div class="f-mx0_9">pgc.conf@gmail.com</div>
                     </li>
                     <li id="f-call">
                         <div class="logo-wrapper">
