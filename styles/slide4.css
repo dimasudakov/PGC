@@ -31,6 +31,11 @@
                 flex-direction: row;
                 gap: 2vmax;
                 position: relative;
+                flex-wrap: wrap;
+
+                .three-by-row {
+                    min-width: 26%;
+                }
 
                 .panel {
                     display: flex;
@@ -62,6 +67,59 @@
                         padding: 0 5% 4%;
                     }
                 }
+
+                .left-side-panel {
+                    display: flex;
+                    flex: 1;
+                    flex-direction: row;
+                    background-color: rgba(255, 255, 255, 0.76);
+                    border-radius: 3vmax;
+                    overflow: hidden;
+                    border: 1px solid #c0c0c0;
+                    min-width: 90%;
+                    align-items: center;
+                    padding-left: 1vw;
+
+                    .p-icon-wrapper {
+                        height: 8vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 1vw;
+
+                        .p-icon {
+                            height: 80%;
+                        }
+                    }
+
+                    .info-wrapper {
+                        display: flex;
+                        flex-direction: column;
+                        flex: 1;
+
+                        .p-title {
+                            /*padding: 4% 5%;*/
+                            padding-top: 1vh;
+                            font-weight: bold;
+                        }
+
+                        .p-info {
+                            /*padding: 0 5% 4%;*/
+                        }
+
+                        @media screen and (max-width: 1260px) {
+                            .p-title {
+                                padding: 4% 5%;
+                                font-weight: bold;
+                            }
+
+                            .p-info {
+                                padding: 0 5% 4%;
+                            }
+                        }
+                    }
+
+                }
             }
             @media screen and (max-width: 1260px) {
                 .panels-group {
@@ -69,6 +127,11 @@
 
                     .panel {
                         width: 90%;
+                    }
+
+                    .left-side-panel {
+                        width: 90%;
+                        flex-direction: column;
                     }
                 }
 

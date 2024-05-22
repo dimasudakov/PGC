@@ -178,6 +178,9 @@
     "panel-10-p-3": "For startups, this is an opportunity to find a Customer to test and implement their developments",
     "panel-10-p-4": "Companies will be able to find a new promising technology improving the efficiency of their work",
 
+    "panel-11-title": "IT technologies and automation tools for reservoir simulation and geochemistry",
+    "panel-11-p-1": "Methods and algorithms for automating routine operations, the use of IT tools, neural networks and machine learning to improve the efficiency of reservoir simulation",
+
     "slide4-become-participant": "Become a participant"
   },
 
@@ -361,6 +364,9 @@
     "panel-10-p-2": "Участники конференции смогут задать интересующие вопросы и оценить предлагаемые технологии",
     "panel-10-p-3": "Для стартапов это возможность найти Заказчика для опробования и внедрения своих разработок",
     "panel-10-p-4": "Для Компаний - найти новую перспективную технологию для повышения эффективности своей работы",
+
+    "panel-11-title": "ИТ-технологии и инструменты автоматизации для ГДМ и геохимии",
+    "panel-11-p-1": "Методы и алгоритмы автоматизации рутинных операций, применение ИТ-инструментов, нейросетей и машинного обучения для повышения эффективности ГДМ",
 
     "slide4-become-participant": "Стать участником"
   }
